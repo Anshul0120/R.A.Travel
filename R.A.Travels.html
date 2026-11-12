@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>R&amp;A Travels – Himachal taxi &amp; tour packages</title>
+<meta name="description" content="One-way and round-trip cabs and tour packages across Himachal Pradesh and India. Chandigarh to Manali, Hamirpur to Katra.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;500;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--pine:#1F4B3F;--snow:#F5F8F7;--card:#FFFFFF;--ink:#14231F;--mute:#4D6159;--mist:#DCE6E2;--stone:#F2B90F;--onpine:#F5F8F7;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--pine:#7FC3AE;--snow:#0F1A17;--card:#16251F;--ink:#EAF2EF;--mute:#9DB2AA;--mist:#26382F;--stone:#F2B90F;--onpine:#0F1A17;color-scheme:dark}}
+:root[data-theme="dark"]{--pine:#7FC3AE;--snow:#0F1A17;--card:#16251F;--ink:#EAF2EF;--mute:#9DB2AA;--mist:#26382F;--stone:#F2B90F;--onpine:#0F1A17;color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*,*::before,*::after{box-sizing:inherit}
+body{margin:0;background:var(--snow);color:var(--ink);font-family:"Bricolage Grotesque",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.6;font-size:17px}
+a{color:inherit}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+header .wrap{display:flex;align-items:center;justify-content:space-between;gap:12px;padding-top:18px;padding-bottom:18px}
+.logo{font-weight:800;font-size:1.3rem;letter-spacing:-.01em;text-decoration:none}
+.logo span{background:var(--stone);color:#14231F;padding:1px 8px;border-radius:5px;margin-right:6px}
+.btn{display:inline-block;background:var(--pine);color:var(--onpine);padding:11px 20px;border-radius:8px;font-weight:700;text-decoration:none;border:0;font:inherit;font-weight:700;cursor:pointer}
+.btn:hover{filter:brightness(1.1)}
+.btn.alt{background:transparent;color:var(--ink);border:2px solid var(--pine)}
+:focus-visible{outline:3px solid var(--stone);outline-offset:2px}
+.hero{padding:44px 0 36px}
+h1{font-size:clamp(2.1rem,6vw,3.8rem);line-height:1.05;letter-spacing:-.03em;font-weight:800;margin:0 0 16px;max-width:15em}
+.lead{font-size:1.15rem;color:var(--mute);max-width:36em;margin:0 0 24px}
+.cta{display:flex;flex-wrap:wrap;gap:12px}
+.route{margin:44px 0 0;position:relative}
+.route h2{font-size:1rem;font-weight:500;color:var(--mute);margin:0 0 14px}
+.road{display:flex;justify-content:space-between;position:relative;padding-top:6px}
+.road::before{content:"";position:absolute;left:0;right:0;top:34px;border-top:4px dashed var(--pine);opacity:.5}
+.stone{position:relative;text-align:center;width:84px;font-size:.85rem;font-weight:500}
+.stone i{display:block;width:34px;height:40px;margin:0 auto 6px;background:var(--card);border:2px solid var(--pine);border-radius:17px 17px 3px 3px;border-top:12px solid var(--stone)}
+.stone b{display:block;font-weight:700}
+section{padding:44px 0}
+section.tint{background:var(--mist)}
+h2.t{font-size:clamp(1.6rem,4vw,2.3rem);letter-spacing:-.02em;line-height:1.15;margin:0 0 8px}
+.sub{color:var(--mute);margin:0 0 24px;max-width:40em}
+.tabs{display:inline-flex;border:2px solid var(--pine);border-radius:9px;overflow:hidden;margin-bottom:16px}
+.tabs button{background:transparent;color:var(--ink);border:0;padding:9px 18px;font:inherit;font-weight:700;cursor:pointer}
+.tabs button[aria-pressed="true"]{background:var(--pine);color:var(--onpine)}
+.scroll{overflow-x:auto}
+table{width:100%;border-collapse:collapse;background:var(--card);border-radius:10px;overflow:hidden;min-width:420px}
+th,td{text-align:left;padding:14px 16px;border-bottom:1px solid var(--mist)}
+th{font-weight:700;color:var(--mute);font-size:.9rem}
+td.p{font-weight:800;font-size:1.2rem;white-space:nowrap}
+td small{display:block;color:var(--mute);font-weight:400}
+.note{font-size:.92rem;color:var(--mute);margin:12px 0 0}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.box{background:var(--card);border-left:6px solid var(--stone);padding:22px;border-radius:4px 10px 10px 4px}
+.box h3{margin:0 0 6px;font-size:1.3rem}
+.box p{margin:0 0 10px;color:var(--mute)}
+ul.tick{margin:0;padding-left:20px}
+form{display:grid;grid-template-columns:1fr 1fr;gap:14px;background:var(--card);padding:24px;border-radius:10px}
+label{display:flex;flex-direction:column;gap:5px;font-weight:700;font-size:.92rem}
+input,select{font:inherit;font-weight:400;padding:11px;border:2px solid var(--mist);border-radius:7px;background:var(--snow);color:var(--ink)}
+.full{grid-column:1/-1}
+footer{padding:36px 0;background:var(--pine);color:var(--onpine)}
+footer p{margin:2px 0}
+footer a{font-weight:700}
+@media (max-width:700px){.two,form{grid-template-columns:1fr}.stone{width:62px;font-size:.75rem}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <a class="logo" href="#top"><span>R&amp;A</span>Travels</a>
+  <a class="btn" href="#enquire">Get a quote</a>
+</div></header>
+
+<main id="top">
+<div class="wrap hero">
+  <h1>Himachal road trips, priced clearly.</h1>
+  <p class="lead">One-way and round-trip cabs from Chandigarh, Hamirpur and across Himachal Pradesh. We also arrange tour packages anywhere in India.</p>
+  <div class="cta"><a class="btn" href="#rates">See Manali rates</a><a class="btn alt" href="#katra">Hamirpur to Katra</a></div>
+  <div class="route" aria-label="Chandigarh to Manali route">
+    <h2>Chandigarh to Manali: about 310 km, 7–8 hours</h2>
+    <div class="road">
+      <div class="stone"><i></i><b>Chandigarh</b>Start</div>
+      <div class="stone"><i></i><b>Bilaspur</b></div>
+      <div class="stone"><i></i><b>Mandi</b></div>
+      <div class="stone"><i></i><b>Kullu</b></div>
+      <div class="stone"><i></i><b>Manali</b>Drop</div>
+    </div>
+  </div>
+</div>
+
+<section class="tint" id="rates"><div class="wrap">
+  <h2 class="t">Chandigarh to Manali rates</h2>
+  <p class="sub">Our fares are set against what other operators on this route charge. Pick a trip type to see the price for each vehicle.</p>
+  <div class="tabs" role="group" aria-label="Trip type">
+    <button type="button" id="tOne" aria-pressed="true">One way</button>
+    <button type="button" id="tRound" aria-pressed="false">Round trip</button>
+  </div>
+  <div class="scroll"><table>
+    <thead><tr><th>Vehicle</th><th>Seats</th><th id="colHead">One-way fare</th></tr></thead>
+    <tbody id="rows"></tbody>
+  </table></div>
+  <p class="note" id="rateNote">One-way: you pay for one direction only. Toll and state entry tax are extra. Fares shown are starting prices and can change in peak season (May–June, December).</p>
+</div></section>
+
+<section id="katra"><div class="wrap">
+  <h2 class="t">Hamirpur to Katra (Vaishno Devi) and Jammu</h2>
+  <div class="two">
+    <div class="box">
+      <h3>Pick-up and drop only</h3>
+      <p>We do not arrange stay or darshan. You get a comfortable ride and the rest is up to you.</p>
+      <ul class="tick">
+        <li>Pick-up from different places, as every passenger needs</li>
+        <li>Drop at the point each passenger chooses</li>
+        <li>Katra and Jammu both covered</li>
+      </ul>
+    </div>
+    <div class="box">
+      <h3>Rate on request</h3>
+      <p>This fare changes often with date, route and number of passengers, so we quote it fresh each time.</p>
+      <a class="btn" href="#enquire" data-route="Hamirpur to Katra">Ask today’s rate</a>
+    </div>
+  </div>
+</div></section>
+
+<section class="tint"><div class="wrap">
+  <h2 class="t">Round trip or one way, your choice</h2>
+  <div class="two">
+    <div class="box"><h3>Round trip</h3><p>The driver stays with you for the whole trip, so you travel on your own schedule.</p></div>
+    <div class="box"><h3>One way</h3><p>Staying on, or coming back another way? Pay only for the direction you travel.</p></div>
+  </div>
+  <p class="note">Looking beyond Himachal? We plan packages anywhere in India, including hotels and sightseeing. Tell us where you want to go.</p>
+</div></section>
+
+<section id="enquire"><div class="wrap">
+  <h2 class="t">Ask for a quote</h2>
+  <p class="sub">Fill this in and it opens WhatsApp with your details ready to send.</p>
+  <form id="f">
+    <label>Your name<input name="name" required autocomplete="name"></label>
+    <label>Passengers<input name="pax" type="number" min="1" max="40" value="2" required></label>
+    <label>From<input name="from" value="Chandigarh" required></label>
+    <label>To<input name="to" value="Manali" required></label>
+    <label>Travel date<input name="date" type="date" required></label>
+    <label>Trip type<select name="type"><option>One way</option><option>Round trip</option></select></label>
+    <label class="full">Vehicle<select name="veh"><option>Sedan (4 seats)</option><option>Ertiga (6 seats)</option><option>Innova Crysta (7 seats)</option><option>Tempo Traveller (12 seats)</option><option>Not sure, suggest one</option></select></label>
+    <button class="btn full" type="submit">Send on WhatsApp</button>
+  </form>
+</div></section>
+</main>
+
+<footer><div class="wrap">
+  <p><b>R&amp;A Travels</b></p>
+  <p>Anshul Sharma, Founder &amp; CEO</p>
+  <p>Himachal Pradesh, India</p>
+  <p>Call or WhatsApp: <a id="tel" href="#">+91 7876578305</a></p>
+  <p>Website: <a href="https://www.randatravels.com">www.randatravels.com</a></p>
+  <p>© 2024 R&amp;A Travels. All rights reserved.</p>
+</div></footer>
+
+<script>
+// Replace with your real WhatsApp number: country code + number, digits only (e.g. 919876543210)
+var PHONE = "917876578305";
+var PHONE = "917876517684";
+var PHONE = "918219130287";
+var VEH = [
+  ["Sedan (Dzire )", "1", 3500, 6200],
+  ["KIA Carens(Clavis)" , "1" , 4000, 7500]
+];
+function fmt(n){ return "₹" + n.toLocaleString("en-IN"); }
+function draw(round){
+  document.getElementById("rows").innerHTML = VEH.map(function(v){
+    return "<tr><td>" + v[0] + "</td><td>" + v[1] + "</td><td class=\"p\">" + fmt(round ? v[3] : v[2]) + "</td></tr>";
+  }).join("");
+  document.getElementById("colHead").textContent = round ? "Round-trip fare" : "One-way fare";
+  document.getElementById("rateNote").textContent = round
+    ? "Round trip: the driver stays with you and returns you to Chandigarh. Toll and state entry tax are extra. Starting prices; peak season may cost more."
+    : "One-way: you pay for one direction only. Toll and state entry tax are extra. Starting prices; peak season (May–June, December) may cost more.";
+  document.getElementById("tOne").setAttribute("aria-pressed", String(!round));
+  document.getElementById("tRound").setAttribute("aria-pressed", String(round));
+}
+document.getElementById("tOne").onclick = function(){ draw(false); };
+document.getElementById("tRound").onclick = function(){ draw(true); };
+draw(false);
+var link = document.querySelector("[data-route]");
+if (link) link.addEventListener("click", function(){
+  var f = document.getElementById("f");
+  f.from.value = "Hamirpur"; f.to.value = "Katra (Vaishno Devi)";
+});
+document.getElementById("tel").href = "https://wa.me/" + PHONE;
+document.getElementById("f").addEventListener("submit", function(e){
+  e.preventDefault();
+  var f = e.target;
+  var msg = "Hello R&A Travels, I’d like a quote.\nName: " + f.name.value + "\nFrom: " + f.from.value + "\nTo: " + f.to.value +
+    "\nDate: " + f.date.value + "\nPassengers: " + f.pax.value + "\nTrip: " + f.type.value + "\nVehicle: " + f.veh.value;
+  window.open("https://wa.me/" + PHONE + "?text=" + encodeURIComponent(msg), "_blank", "noopener");
+});
+</script>
+</body>
+</html>
